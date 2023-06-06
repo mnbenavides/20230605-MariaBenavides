@@ -1,0 +1,43 @@
+
+  418  cd Curso/Digital\ House/Introduccion_informatica/Modulo2/Evaluacion_1/20230605-MariaBenavides/
+  419  git init
+  420  git config user.name "mnbenavides"
+  421  git config user.email "mnbenavides1@gmial.com"
+  422  git remote -v
+  423  git remote add origin https://github.com/mnbenavides/20230605-MariaBenavides.git
+  424  git remote -v
+  426  touch comandos.txt main.js index.html
+  427  git status
+  428  git commit -m "01 de MariaBenavides"
+  429  git add .
+  430  git commit -m "01 de MariaBenavides"
+  429  git push origin main
+  428  git branch feature01
+  427  mkdir Terminal Hardware
+  426  git checkout feature01 
+  425  mkdir Terminal Hardware
+  424  cd Terminal/
+  423  touch resumen.txt
+  422  cp resumen.txt ../Hardware/
+  421  git add .
+  420  git commit -m "comando 02 de mariaBenavides"
+  419  git push origin feature01 
+  418  git branch feature02
+  417  git checkout feature02
+  416  git checkout feature01
+  415  cd ..
+  414  git add .
+  413  git commit -m "comando 03 de mariaBenavides"
+  412  git push origin feature01 
+  411  git checkout feature02
+  410  git checkout feature01
+  409  git branch -D feature02
+  408  git branch feature02
+  407  git checkout feature02
+  406  git add .
+  405  git commit -m "commit 04 de mariaBenavides"
+  404  git push origin feature02 
+  403  git checkout main 
+  402  mv comandos.txt comandosUtilizados.txt
+  401  history 30 > comandosUtilizados.txt
+  399  history 100 > comandosUtilizados.txt
