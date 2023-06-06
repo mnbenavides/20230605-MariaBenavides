@@ -1,0 +1,5 @@
+git push origin rama
+git pull origin rama
+git remote -v
+mkdir carpeta 1 carpeta 2
+touch archivo1.txt archivo2.html 

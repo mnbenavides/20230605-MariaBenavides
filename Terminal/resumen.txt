@@ -1,0 +1,3 @@
+procesador 
+placa base
+memoria ram
